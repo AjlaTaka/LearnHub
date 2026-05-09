@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ── Brand Colors ──────────────────────────────────────── -->
+    <!-- Primary: deep navy blue — conveys trust, knowledge, professionalism -->
+    <color name="primary">#1A237E</color>
+    <color name="primary_dark">#0D1442</color>
+    <color name="primary_light">#3949AB</color>
+    <!-- Accent: electric amber — energetic contrast for CTAs -->
+    <color name="accent">#FFB300</color>
+    <color name="accent_dark">#F57F17</color>
+
+    <!-- ── Backgrounds ───────────────────────────────────────── -->
+    <color name="background">#F5F7FF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- ── Text ─────────────────────────────────────────────── -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- ── Feedback Colors ──────────────────────────────────── -->
+    <!-- Green for correct answers -->
+    <color name="color_correct">#2E7D32</color>
+    <!-- Red for wrong answers -->
+    <color name="color_wrong">#C62828</color>
+    <!-- Amber for warnings / in-progress -->
+    <color name="color_warning">#F57C00</color>
+
+    <!-- ── Course Accent Colors ──────────────────────────────── -->
+    <!-- Each course has its own accent color for visual differentiation -->
+    <!-- DSA — purple -->
+    <color name="color_dsa">#7B1FA2</color>
+    <!-- OS — blue -->
+    <color name="color_os">#1565C0</color>
+    <!-- DB — teal -->
+    <color name="color_db">#00695C</color>
+    <!-- OOP — orange -->
+    <color name="color_oop">#E65100</color>
+    <!-- Networks — pink -->
+    <color name="color_networks">#AD1457</color>
+
+    <!-- ── Splash & Status ───────────────────────────────────── -->
+    <color name="splash_background">#1A237E</color>
+    <color name="status_bar">#0D1442</color>
+
+    <!-- Material defaults -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

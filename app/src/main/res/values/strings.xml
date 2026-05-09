@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnHub</string>
+    <string name="app_tagline">Software Engineering for University Students</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_courses">Courses</string>
+    <string name="nav_leaderboard">My Scores</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Quiz -->
+    <string name="start_quiz">Start Quiz</string>
+    <string name="next_question">Next Question</string>
+    <string name="see_results">See Results</string>
+    <string name="retry_quiz">Retry Quiz</string>
+    <string name="quit_quiz">Quit Quiz</string>
+
+    <!-- Settings -->
+    <string name="settings_sound">Sound Effects</string>
+    <string name="settings_tts">Text-to-Speech</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_timer">Show Quiz Timer</string>
+    <string name="settings_reset">Reset All Scores</string>
+
+    <!-- Accessibility -->
+    <string name="cd_app_logo">LearnHub application logo</string>
+    <string name="cd_tts_button">Read lesson aloud</string>
+    <string name="cd_course_icon">Course icon</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── Brand Colors ──────────────────────────────────────── -->
+    <color name="primary">#0D47A1</color>
+    <color name="primary_dark">#082B63</color>
+    <color name="primary_light">#1565C0</color>
+
+    <color name="accent">#FFC107</color>
+    <color name="accent_dark">#FFA000</color>
+
+    <!-- ── Backgrounds ───────────────────────────────────────── -->
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="card_background">#242424</color>
+
+    <!-- ── Text ─────────────────────────────────────────────── -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- ── Feedback Colors ──────────────────────────────────── -->
+    <color name="color_correct">#66BB6A</color>
+    <color name="color_wrong">#EF5350</color>
+    <color name="color_warning">#FFA726</color>
+
+    <!-- ── Course Accent Colors ──────────────────────────────── -->
+    <color name="color_dsa">#BA68C8</color>
+    <color name="color_os">#64B5F6</color>
+    <color name="color_db">#4DB6AC</color>
+    <color name="color_oop">#FFB74D</color>
+    <color name="color_networks">#F06292</color>
+
+    <!-- ── Splash & Status ───────────────────────────────────── -->
+    <color name="splash_background">#121212</color>
+    <color name="status_bar">#000000</color>
+
+    <!-- Material defaults -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

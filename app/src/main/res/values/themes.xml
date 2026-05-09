@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ─────────────────────────────────────────────
+         BASE THEME
+    ───────────────────────────────────────────── -->
+    <style name="Theme.LearnHub" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+
+        <item name="android:fontFamily">sans-serif</item>
+
+        <!-- Default widget styles -->
+        <item name="materialCardViewStyle">@style/Widget.LearnHub.CardView</item>
+        <item name="materialButtonStyle">@style/Widget.LearnHub.Button</item>
+
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.LearnHub.Splash" parent="Theme.LearnHub">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+    </style>
+
+    <!-- NoActionBar variant -->
+    <style name="Theme.LearnHub.NoActionBar" parent="Theme.LearnHub">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- ─────────────────────────────────────────────
+         WIDGET STYLES
+    ───────────────────────────────────────────── -->
+
+    <style name="Widget.LearnHub.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+    </style>
+
+    <style name="Widget.LearnHub.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="Widget.LearnHub.Button.Accent" parent="Widget.LearnHub.Button">
+        <item name="backgroundTint">@color/accent</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="Widget.LearnHub.Button.Outline"
+        parent="Widget.MaterialComponents.Button.OutlinedButton">
+
+        <item name="cornerRadius">12dp</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <!-- ─────────────────────────────────────────────
+         TEXT STYLES (FIXED ROOT STYLE ADDED)
+    ───────────────────────────────────────────── -->
+
+    <!-- IMPORTANT BASE STYLE (FIXES YOUR BUILD ERROR) -->
+    <style name="TextStyle.LearnHub"
+        parent="TextAppearance.MaterialComponents.Body1" />
+
+    <style name="TextStyle.LearnHub.Heading">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="TextStyle.LearnHub.Subheading">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextStyle.LearnHub.Body">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+    <style name="TextStyle.LearnHub.Code">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">#E3F2FD</item>
+    </style>
+
+    <style name="TextStyle.LearnHub.Badge">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+</resources>
