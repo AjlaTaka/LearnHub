@@ -16,7 +16,7 @@
 
 ### Steps to Run on Emulator
 1. In Android Studio → **Device Manager** → **Create Device**
-2. Choose Pixel 6, API 34
+2. Choose Pixel 8, API 34
 3. Press the **▶ Run** button
 
 ### Steps to Run on Real Device
